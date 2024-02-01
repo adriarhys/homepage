@@ -1,0 +1,19 @@
+html{
+    background-color: rgb(255, 227, 224)
+}
+div{
+   width: 30%;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+h2{
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+h3{
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
