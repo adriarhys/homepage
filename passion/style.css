@@ -30,6 +30,7 @@ body {
 img {
     width: 500px;
     border: 2px solid rgb(255, 192, 203);
+    align-content: center;
 }
 .relative {
     background-color: (255, 227, 224);
@@ -52,16 +53,16 @@ img {
     height: 75px;
     left: 380px;
   }
-  .placement {
-    position: relative;
-    top: 200px;
-    right: 300px;
-  }
+
 
   .go-back {
     font-size: 18px;
     position: relative;
-    top: 250px;
-    left: 250px;
+   text-align: center;
   
+  }
+
+  .placement {
+    display: inline-block;
+    place-items: center;
   }
