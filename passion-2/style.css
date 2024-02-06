@@ -3,61 +3,63 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: rgb(231,213,213);
+}
 
-html{
-    background-color: rgb(255, 227, 224)
-}
-div{
-   width: 30%;
-    display: inline-block;
-}
-h1{
-    text-align: center;
-    color: rgb(100, 100, 100);
-}
-h2{
-    text-align: center;
-    color: rgb(100, 100, 100);
-}
-h3{
-    text-align: center;
-    color: rgb(100, 100, 100);
-}
 body {
     text-align: center;
-    color: rgb(100, 100, 100);
-}
-img {
-    width: 500px;
-    border: 2px solid rgb(255, 192, 203);
-    align-content: center;
-}
-.relative {
-    background-color: (255, 227, 224);
-    width: 200px;
-    height: 50px;
+    font-style: italic;
+    color: rgb(48,38,92);
     font-size: 18px;
-    position: relative;
-    top: -30px;
-    left: -410px;
 }
+
+img {
+    height: 250px;
+    width: 350px;
+    border: 2px solid rgb(255,208,208);
+}
+
+.flex-container {
+    display: flex;
+    
+    
+}
+
+.flex-child {
+    flex: 1px;
+    
+}
+
+.second {
+    margin-right: 20px;
+}
+
+.box {
+    position: relative;
+    background-color: rgb(149,166,201);
+    height: 90px;
+    width: 275px;
+    margin: auto;
+    padding: 0;
+    border: 5px solid rgb(149,166,201);
+    
+}
+
+.square {
+    background-color: rgb(149,166,201);
+    width: 350px;
+    height: 100px;
+    position: relative;
+    border: 2px solid rgb(255,208,208);
+}
+
 .audio-container {
     position: relative;
-    right: 250px;
-    top: -10px;
-  }
-  .square {
-    background-color: rgb(255, 192, 203);
-    position: relative;
-    width: 550px;
-    height: 75px;
-    left: 380px;
-  }
+   top: 10px;
+}
 
-
-  .go-back {
-    font-size: 18px;
+.relative {
     position: relative;
-   text-align: center;
-  
-  }
+    top: 15px;
+}
