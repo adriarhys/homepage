@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.box {
+    background-color: gray;
+    height: 300px;
+}
