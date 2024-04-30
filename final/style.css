@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(old-windows-1920-x-1080-background-ngg7bmgpkxrk69lm.jpg);
+    background-size: cover;
+}
+
+.icon {
+    margin: 1vh;
+}
+
+.label {
+    background-color: bisque;
+    opacity: 75%;
+    width: fit-content;
+    margin: 1vh;
+}
+
+.icon2 {
+    position: absolute;
+    left: 96%;
+    top: 1%;
+}
+
+.label2 {
+    left: 95.8%;
+    position: absolute;
+    top: 6.5%;
+ 
+}

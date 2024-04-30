@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 150%;
+    height: auto;
+}
+
+body {
+    background-image: url("pexels-pixabay-531756.jpg");
+    background-color: #cccccc;
+    
+}
+
+h1 {
+    text-align: center;
+    color: bisque;
+}
+
+h2 {
+    text-align: center;
+    color: bisque;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+  justify-content: space-between;
+  padding: 12vw;
+  
+}
+
+.log {
+    background-color: rgb(110, 66, 35);
+    width: 105%;
+    height: 15vh;
+    align-items: center;
+    justify-self: center;
+    margin-left: 0;
+    padding: 0;
+    top: 38%;
+    position: absolute;
+   right: 0.01%;
+    
+}
+
+.placement {
+   position: absolute;
+    top: 53%;
+    
+}
+
+.words {
+    color: bisque;
+   
+}
+
+.wordholder {
+    display: flex;
+    justify-content: space-evenly;
+   padding-inline-start: 7%;
+}

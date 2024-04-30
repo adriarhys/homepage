@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>-</title>
+    <link rel="stylesheet" href="../photos/style.css">
+</head>
+<body>
+    <a style="text-decoration:none" href="../index.html">
+        <div class="topbar">
+       
+            X
+          </div>
+        </a>
+        <div class="exit">
+    <form class="form">
+        <label for="pswd">Enter your password: </label>
+        <input type="password" id="pswd">
+        <input type="button" value="Submit" onclick="checkPswd();" />
+    </form>
+    
+    <script type="text/javascript">
+        function checkPswd() {
+            var confirmPassword = "2814262225";
+            var password = document.getElementById("pswd").value;
+            if (password == confirmPassword) {
+                 window.location="../win!/index.html";
+            }
+            else{
+                alert("Incorrect");
+            }
+        }
+    </script>
+    </div>
+</body>
+</html>

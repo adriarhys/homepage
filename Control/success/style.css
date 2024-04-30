@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+    text-align: center;
+    justify-self: center;
+    color: white;
+    margin-top: 20%;
+    font-size: xx-large;
+}
+
+body   {
+    background-color: darkslategray;
+}

@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+  
+    color: antiquewhite;
+}
+
+.container {
+    align-content: center;
+    
+}
+
+.one {
+   font-size: 150%;
+    position: relative;
+}
+
+.two {
+    font-size: 150%;
+    position: relative;
+}
+
+.three {
+    font-size: 150%;
+    position: relative;
+}
+
+h2 {
+    margin-bottom: 10vh;
+}
+
+@media screen and (max-width: 550px) and (max-height: 600px) and (min-height: 500px) {
+    .one {
+        color: coral;
+        opacity: 1;
+    }
+    .two {
+        opacity: 0;
+    }
+    .three {
+        opacity: 0;
+    }
+
+    h2 {
+        opacity: 0;
+    }
+}
+
+@media screen and  (max-width: 700px) and (max-height:750px) and (min-width: 550px) and (min-height:650px)
+{
+    .one {
+        opacity: 0;
+    }
+    .two {
+        opacity: 0;
+    }
+    .three {
+        color: blueviolet;
+    }
+    h2 {
+        opacity: 0;
+    }
+}
+
+@media screen and  (max-width: 1300px) and (min-width:1200px) and (max-height:800px) and (min-height:635px) {
+
+    .one {
+        opacity: 0;
+    }
+    .two {
+        color: crimson;
+    }
+    .three {
+        opacity: 0;
+    }
+    h2 {
+        opacity: 0;
+    }
+}
