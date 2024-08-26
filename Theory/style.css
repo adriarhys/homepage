@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(160, 146, 252);
+    text-align: center;
+}
