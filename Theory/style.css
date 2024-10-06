@@ -10,3 +10,8 @@ body {
     background-color: rgb(160, 146, 252);
     text-align: center;
 }
+
+.container {
+    width: 350px;
+    margin: auto;
+}
